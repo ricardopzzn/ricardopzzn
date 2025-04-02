@@ -1,6 +1,9 @@
 
 <h1 align="center">Hi 👋, I'm Ricardo</h1>
 <h3 align="center">A passionate backend developer from Brazil</h3>
+<h3 align="center"> Hello dev and cybersecurity folks, I'm just another crazy person passionate about programming and a developer of tools for the community. I'm still just a small fish, but over time, we will mature and create more complex things.
+I hope to contribute to the community daily, and I'm open to new remote job opportunities.
+I'm focused on back-end development and studying cybersecurity. I accept job offers for Santa Catarina and Paraná.  </h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
