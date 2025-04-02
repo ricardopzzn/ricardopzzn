@@ -7,7 +7,22 @@
 
 ## 🚀 Linguagens de Programação
 [![My Skills](https://skillicons.dev/icons?i=java,python,javascript)](https://skillicons.dev)<br><br>
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)
+
+## Markdown
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)  
+
+
+## Bash Script
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)  
+
+
+## PowerShell
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)  
+
+
+## C#
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)  
+
 
 ## 🛠️ Ferramentas e Tecnologias
 [![My Skills](https://skillicons.dev/icons?i=vscode,eclipse,mysql,bootstrap,git,github)](https://skillicons.dev)<br><br>
