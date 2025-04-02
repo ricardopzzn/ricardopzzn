@@ -1,4 +1,3 @@
-<h1 align="center">👋 Olá, eu sou {Ricardo}</h1>
 
 <h1 align="center">Hi 👋, I'm Ricardo</h1>
 <h3 align="center">A passionate backend developer from Brazil</h3>
