@@ -19,11 +19,9 @@ I'm focused on back-end development and studying cybersecurity. I accept job off
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ricardopzzn/ricardopzzn/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ricardopzzn/ricardopzzn/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ricardopzzn/ricardopzzn/output/pacman-contribution-graph.svg">
-</picture>
+<img src="https://raw.githubusercontent.com/ricardopzzn/ricardopzzn/output/snake.svg" alt="Snake animation" />
+
+###
 
 ###
 
