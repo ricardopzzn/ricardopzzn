@@ -27,6 +27,8 @@ I'm focused on back-end development and studying cybersecurity. I accept job off
 
 ###
 
+###
+
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
