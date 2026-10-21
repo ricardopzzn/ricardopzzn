@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-labelledby="title description">
+  <title id="title">ricardo@redteam profile summary</title>
+  <desc id="description">Terminal-style summary of Ricardo's backend development and cybersecurity focus, technologies, location, and TryHackMe profile.</desc>
+  <style>
+    text { font: 14px 'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono','Courier New',monospace; }
+    .glow { animation: glow 3s ease-in-out infinite alternate; }
+    .scanline { animation: scan 7s linear infinite; }
+    .cursor { animation: blink 1s steps(2, start) infinite; }
+    @keyframes glow { from { stroke-opacity: .35; } to { stroke-opacity: .95; } }
+    @keyframes scan { from { transform: translateY(-30px); } to { transform: translateY(350px); } }
+    @keyframes blink { to { opacity: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="blueGlow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#00b7ff"/>
+      <stop offset="1" stop-color="#163dff"/>
+    </linearGradient>
+    <linearGradient id="scanFade" x1="0" x2="1">
+      <stop offset="0" stop-color="#00b7ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00b7ff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#00b7ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="899" height="329" rx="10" fill="#0d1117" stroke="url(#blueGlow)" stroke-width="1.5" class="glow"/>
+  <path d="M1 11a10 10 0 0 1 10-10h878a10 10 0 0 1 10 10v23H1z" fill="#161b22"/>
+  <circle cx="22" cy="17" r="6" fill="#00b7ff"/>
+  <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="17" r="6" fill="#27c93f"/>
+  <text x="450" y="22" text-anchor="middle" fill="#8b949e" font-size="13">ricardo@redteam: ~</text>
+
+  <text x="24" y="62"><tspan fill="#00b7ff">┌──(</tspan><tspan fill="#65d9ff">ricardo@redteam</tspan><tspan fill="#00b7ff">)-[</tspan><tspan fill="#e6e6e6">~</tspan><tspan fill="#00b7ff">]</tspan></text>
+  <text x="24" y="84"><tspan fill="#00b7ff">└─$ </tspan><tspan fill="#e6e6e6">./profile.sh --user ricardopzzn</tspan><tspan fill="#65d9ff" class="cursor">█</tspan></text>
+
+  <text x="24" y="124"><tspan fill="#65d9ff">[*] </tspan><tspan fill="#6e7681">role                      </tspan><tspan fill="#e6e6e6">backend developer</tspan></text>
+  <text x="24" y="150"><tspan fill="#65d9ff">[*] </tspan><tspan fill="#6e7681">learning                  </tspan><tspan fill="#e6e6e6">cybersecurity · Red Team</tspan></text>
+  <text x="24" y="176"><tspan fill="#65d9ff">[*] </tspan><tspan fill="#6e7681">languages                 </tspan><tspan fill="#e6e6e6">JavaScript · Python · Bash · C# · C · Java</tspan></text>
+  <text x="24" y="202"><tspan fill="#65d9ff">[*] </tspan><tspan fill="#6e7681">backend &amp; systems         </tspan><tspan fill="#e6e6e6">Flask · Django · PostgreSQL · MongoDB · Linux</tspan></text>
+  <text x="24" y="228"><tspan fill="#65d9ff">[*] </tspan><tspan fill="#6e7681">location                  </tspan><tspan fill="#e6e6e6">Brazil · open to remote opportunities</tspan></text>
+
+  <text x="24" y="268"><tspan fill="#00b7ff">[+] </tspan><tspan fill="#e6e6e6">TryHackMe</tspan><tspan fill="#8b949e"> · </tspan><tspan fill="#65d9ff">tryhackme.com/p/rick0x1</tspan></text>
+  <text x="24" y="294"><tspan fill="#00b7ff">┌──(</tspan><tspan fill="#65d9ff">ricardo@redteam</tspan><tspan fill="#00b7ff">)-[</tspan><tspan fill="#e6e6e6">~</tspan><tspan fill="#00b7ff">]</tspan></text>
+  <text x="24" y="316"><tspan fill="#00b7ff">└─$ </tspan><tspan fill="#e6e6e6">whoami</tspan><tspan fill="#65d9ff" class="cursor">█</tspan></text>
+  <rect x="1" y="0" width="898" height="2" fill="url(#scanFade)" class="scanline"/>
+</svg>

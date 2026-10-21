@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title description">
+  <title id="title">ricardo@redteam certifications</title>
+  <desc id="description">All 28 graduation, development, OneBitCode and MBA certificates listed in a blue terminal interface. Each certificate title links to its document when the SVG is opened directly.</desc>
+  <style>
+    text { font: 13px 'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono','Courier New',monospace; }
+    .glow { animation: glow 3s ease-in-out infinite alternate; }
+    .scanline { animation: scan 12s linear infinite; }
+    .cursor { animation: blink 1s steps(2, start) infinite; }
+    .item { text-decoration: underline; }
+    @keyframes glow { from { stroke-opacity: .35; } to { stroke-opacity: .95; } }
+    @keyframes scan { from { transform: translateY(-30px); } to { transform: translateY(1120px); } }
+    @keyframes blink { to { opacity: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="blueGlow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#00b7ff"/>
+      <stop offset="1" stop-color="#163dff"/>
+    </linearGradient>
+    <linearGradient id="scanFade" x1="0" x2="1">
+      <stop offset="0" stop-color="#00b7ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00b7ff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#00b7ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="899" height="1099" rx="10" fill="#0d1117" stroke="url(#blueGlow)" stroke-width="1.5" class="glow"/>
+  <path d="M1 11a10 10 0 0 1 10-10h878a10 10 0 0 1 10 10v23H1z" fill="#161b22"/>
+  <circle cx="22" cy="17" r="6" fill="#00b7ff"/>
+  <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="17" r="6" fill="#27c93f"/>
+  <text x="450" y="22" text-anchor="middle" fill="#8b949e" font-size="12">ricardo@redteam: ~/certifications</text>
+
+  <text x="24" y="62"><tspan fill="#00b7ff">┌──(</tspan><tspan fill="#65d9ff">ricardo@redteam</tspan><tspan fill="#00b7ff">)-[</tspan><tspan fill="#e6e6e6">~/certifications</tspan><tspan fill="#00b7ff">]</tspan></text>
+  <text x="24" y="84"><tspan fill="#00b7ff">└─$ </tspan><tspan fill="#e6e6e6">ls -la --all-categories</tspan><tspan fill="#65d9ff" class="cursor">█</tspan></text>
+
+  <text x="24" y="122" fill="#65d9ff">[graduation] · 1 document</text>
+  <a href="../certificates/graduation/diploma-ads.pdf"><text class="item" x="48" y="148" fill="#e6e6e6">Diploma em Análise e Desenvolvimento de Sistemas<tspan fill="#00b7ff">  ↗</tspan></text></a>
+
+  <text x="24" y="190" fill="#65d9ff">[development &amp; technology] · 12 certificates</text>
+  <a href="../certificates/additional/backend-developer.pdf"><text class="item" x="48" y="216" fill="#e6e6e6">Backend Developer<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/basic-frontend.pdf"><text class="item" x="48" y="242" fill="#e6e6e6">Basic Front-end<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/advanced-tester.pdf"><text class="item" x="48" y="268" fill="#e6e6e6">Advanced Tester<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/course-completion.pdf"><text class="item" x="48" y="294" fill="#e6e6e6">Course Completion<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/devops-strategist.pdf"><text class="item" x="48" y="320" fill="#e6e6e6">DevOps Strategist<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/smart-manager.pdf"><text class="item" x="48" y="346" fill="#e6e6e6">Smart Manager<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/completion-declaration.pdf"><text class="item" x="48" y="372" fill="#e6e6e6">Completion Declaration<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/frontend-developer.png"><text class="item" x="48" y="398" fill="#e6e6e6">FrontEnd Developer<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/full-cycle-developer.png"><text class="item" x="48" y="424" fill="#e6e6e6">Full Cycle Developer<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/full-stack-developer.pdf"><text class="item" x="48" y="450" fill="#e6e6e6">Full Stack Developer<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/object-oriented-developer.pdf"><text class="item" x="48" y="476" fill="#e6e6e6">Object Oriented Developer<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/additional/programmer.pdf"><text class="item" x="48" y="502" fill="#e6e6e6">Programmer<tspan fill="#00b7ff">  ↗</tspan></text></a>
+
+  <text x="24" y="544" fill="#65d9ff">[OneBitCode micro-certificates] · 8 certificates</text>
+  <a href="../certificates/microcertificates/onebitecode/automation-tasks.pdf"><text class="item" x="48" y="570" fill="#e6e6e6">Automação I — Tarefas<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/microcertificates/onebitecode/sql-databases-python.pdf"><text class="item" x="48" y="596" fill="#e6e6e6">Banco de Dados SQL com Python<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/microcertificates/onebitecode/python-spreadsheet-automation.pdf"><text class="item" x="48" y="622" fill="#e6e6e6">Python — Automação de Planilhas<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/microcertificates/onebitecode/git-github.pdf"><text class="item" x="48" y="648" fill="#e6e6e6">Git e GitHub<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/microcertificates/onebitecode/file-manipulation.pdf"><text class="item" x="48" y="674" fill="#e6e6e6">Manipulando Arquivos<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/microcertificates/onebitecode/pip-modules.pdf"><text class="item" x="48" y="700" fill="#e6e6e6">pip e Módulos<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/microcertificates/onebitecode/python-introduction.pdf"><text class="item" x="48" y="726" fill="#e6e6e6">Python — Introdução<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/microcertificates/onebitecode/python-oop.pdf"><text class="item" x="48" y="752" fill="#e6e6e6">Python — Programação Orientada a Objetos<tspan fill="#00b7ff">  ↗</tspan></text></a>
+
+  <text x="24" y="794" fill="#65d9ff">[MBA · information security] · 7 certificates</text>
+  <a href="../certificates/mba-security/cybersecurity-essentials.png"><text class="item" x="48" y="820" fill="#e6e6e6">Cybersecurity Essentials<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/mba-security/incident-response-teams.pdf"><text class="item" x="48" y="846" fill="#e6e6e6">Computer Security Incident Response Teams<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/mba-security/cyber-threat-management.pdf"><text class="item" x="48" y="872" fill="#e6e6e6">Cyber Threat Management<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/mba-security/network-security.pdf"><text class="item" x="48" y="898" fill="#e6e6e6">Network Security<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/mba-security/networking-essentials.pdf"><text class="item" x="48" y="924" fill="#e6e6e6">Networking Essentials<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/mba-security/privacy-data-protection.pdf"><text class="item" x="48" y="950" fill="#e6e6e6">Privacy and Data Protection<tspan fill="#00b7ff">  ↗</tspan></text></a>
+  <a href="../certificates/mba-security/endpoint-security.pdf"><text class="item" x="48" y="976" fill="#e6e6e6">Endpoint Security<tspan fill="#00b7ff">  ↗</tspan></text></a>
+
+  <text x="24" y="1020"><tspan fill="#00b7ff">[+] </tspan><tspan fill="#e6e6e6">28 documents indexed</tspan><tspan fill="#8b949e"> · click a title to open its certificate</tspan></text>
+  <text x="24" y="1060"><tspan fill="#00b7ff">┌──(</tspan><tspan fill="#65d9ff">ricardo@redteam</tspan><tspan fill="#00b7ff">)-[</tspan><tspan fill="#e6e6e6">~/certifications</tspan><tspan fill="#00b7ff">]</tspan></text>
+  <text x="24" y="1082"><tspan fill="#00b7ff">└─$ </tspan><tspan fill="#e6e6e6">open --links README.md</tspan><tspan fill="#65d9ff" class="cursor">█</tspan></text>
+  <rect x="1" y="0" width="898" height="2" fill="url(#scanFade)" class="scanline"/>
+</svg>

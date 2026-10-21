@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title description">
+  <title id="title">Ricardo Moureira</title>
+  <desc id="description">Backend developer and cybersecurity student. The name cycles through shades of blue.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset=".55" stop-color="#10243a"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="nameColor" x1="0" y1="0" x2="1" y2="0">
+      <stop class="name-start" offset="0" stop-color="#b9f4ff"/>
+      <stop class="name-mid" offset=".5" stop-color="#168bff"/>
+      <stop class="name-end" offset="1" stop-color="#75d9ff"/>
+    </linearGradient>
+    <filter id="blueGlow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#168bff" flood-opacity=".65"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .name-start { animation: colorShift 4s ease-in-out infinite; }
+    .name-mid { animation: colorShift 4s ease-in-out infinite 0.25s; }
+    .name-end { animation: colorShift 4s ease-in-out infinite 0.5s; }
+    .cursor { animation: blink 1s steps(2, start) infinite; }
+    @keyframes colorShift {
+      0%, 100% { stop-color: #b9f4ff; }
+      50% { stop-color: #1677ff; }
+    }
+    @keyframes blink { to { opacity: 0; } }
+  </style>
+  <rect width="900" height="220" rx="12" fill="url(#background)" stroke="#168bff" stroke-opacity=".65"/>
+  <path d="M12 1h876a11 11 0 0 1 11 11v26H1V12A11 11 0 0 1 12 1z" fill="#161b22"/>
+  <circle cx="23" cy="19" r="6" fill="#00b7ff"/>
+  <circle cx="43" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="63" cy="19" r="6" fill="#27c93f"/>
+  <text x="450" y="24" text-anchor="middle" fill="#8b949e" font-family="JetBrains Mono,Consolas,monospace" font-size="13">ricardo@redteam: ~</text>
+
+  <text x="450" y="112" text-anchor="middle" fill="url(#nameColor)" filter="url(#blueGlow)" font-family="JetBrains Mono,Consolas,monospace" font-size="44" font-weight="700" letter-spacing="3">RICARDO MOUREIRA</text>
+  <text x="450" y="151" text-anchor="middle" fill="#c9d1d9" font-family="JetBrains Mono,Consolas,monospace" font-size="15" letter-spacing="2">BACKEND DEVELOPER  |  CYBERSECURITY STUDENT</text>
+  <text x="450" y="190" text-anchor="middle" fill="#65d9ff" font-family="JetBrains Mono,Consolas,monospace" font-size="13">[ learning · building · securing ]<tspan class="cursor">_</tspan></text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-labelledby="title description">
+  <title id="title">ricardo@redteam whoami</title>
+  <desc id="description">Ricardo is a backend developer from Brazil studying cybersecurity, interested in Red Team concepts, and open to remote opportunities and positions in Santa Catarina and Parana.</desc>
+  <style>
+    text { font: 14px 'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono','Courier New',monospace; }
+    .glow { animation: glow 3s ease-in-out infinite alternate; }
+    .scanline { animation: scan 7s linear infinite; }
+    .cursor { animation: blink 1s steps(2, start) infinite; }
+    @keyframes glow { from { stroke-opacity: .35; } to { stroke-opacity: .95; } }
+    @keyframes scan { from { transform: translateY(-30px); } to { transform: translateY(290px); } }
+    @keyframes blink { to { opacity: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="blueGlow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#00b7ff"/>
+      <stop offset="1" stop-color="#163dff"/>
+    </linearGradient>
+    <linearGradient id="scanFade" x1="0" x2="1">
+      <stop offset="0" stop-color="#00b7ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00b7ff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#00b7ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="899" height="269" rx="10" fill="#0d1117" stroke="url(#blueGlow)" stroke-width="1.5" class="glow"/>
+  <path d="M1 11a10 10 0 0 1 10-10h878a10 10 0 0 1 10 10v23H1z" fill="#161b22"/>
+  <circle cx="22" cy="17" r="6" fill="#00b7ff"/>
+  <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="17" r="6" fill="#27c93f"/>
+  <text x="450" y="22" text-anchor="middle" fill="#8b949e" font-size="13">ricardo@redteam: ~</text>
+
+  <text x="24" y="62"><tspan fill="#00b7ff">┌──(</tspan><tspan fill="#65d9ff">ricardo@redteam</tspan><tspan fill="#00b7ff">)-[</tspan><tspan fill="#e6e6e6">~</tspan><tspan fill="#00b7ff">]</tspan></text>
+  <text x="24" y="84"><tspan fill="#00b7ff">└─$ </tspan><tspan fill="#e6e6e6">whoami</tspan><tspan fill="#65d9ff" class="cursor">█</tspan></text>
+
+  <text x="24" y="122"><tspan fill="#65d9ff">[+] </tspan><tspan fill="#e6e6e6">Ricardo Moureira · backend developer · Brazil</tspan></text>
+  <text x="24" y="150"><tspan fill="#65d9ff">[*] </tspan><tspan fill="#6e7681">focus</tspan><tspan fill="#e6e6e6">          backend development and secure software</tspan></text>
+  <text x="24" y="178"><tspan fill="#65d9ff">[*] </tspan><tspan fill="#6e7681">learning</tspan><tspan fill="#e6e6e6">       cybersecurity · ethical Red Team concepts</tspan></text>
+  <text x="24" y="206"><tspan fill="#65d9ff">[*] </tspan><tspan fill="#6e7681">opportunities</tspan><tspan fill="#e6e6e6">  remote · Santa Catarina · Paraná</tspan></text>
+
+  <text x="24" y="248"><tspan fill="#00b7ff">[+] </tspan><tspan fill="#e6e6e6">building tools for the community and learning every day</tspan></text>
+  <rect x="1" y="0" width="898" height="2" fill="url(#scanFade)" class="scanline"/>
+</svg>
